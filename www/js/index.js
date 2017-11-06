@@ -8,6 +8,7 @@ $(document).on("pagecreate","#pageone",function(){
 function submitText() {
 	var text = $('#textinput').val();
 	alert(text);
+	storeValue("text", text)
 }
 
 function storeValue(key, value) {
