@@ -12,4 +12,6 @@ function submitText() {
 
 function storeValue(key, value) {
 	//add some code to store the key-value pair in persistant storage 
+	var text = $('#textinput').val();
+	alert(text);
 }
